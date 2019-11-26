@@ -1,0 +1,8 @@
+language: csharp
+mono: none
+dotnet: 3.0
+script:
+- dotnet build ./Gotham.web
+- dotnet build ./Gotham.web.acceptanceTests/
+- dotnet test ./Gotham.web.acceptanceTests/
+- docker build -t testGotham .
