@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.csproj": {}
+    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham\\Gotham.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.csproj": {
+    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham\\Gotham.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.csproj",
+        "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham\\Gotham.csproj",
         "projectName": "Gotham",
-        "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.csproj",
+        "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham\\Gotham.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\obj\\",
+        "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

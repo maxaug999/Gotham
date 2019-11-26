@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.csproj": {}
+    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.unitTests\\Gotham.web.unitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.csproj": {
+    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.unitTests\\Gotham.web.unitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.csproj",
-        "projectName": "Gotham",
-        "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.csproj",
+        "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.unitTests\\Gotham.web.unitTests.csproj",
+        "projectName": "Gotham.web.unitTests",
+        "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.unitTests\\Gotham.web.unitTests.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\obj\\",
+        "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.unitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,6 +42,24 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,9 +71,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
