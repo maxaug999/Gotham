@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\usager\\.nuget\\packages\\": {},
+    "C:\\Users\\William\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham\\Gotham.csproj",
-      "projectName": "Gotham",
-      "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham\\Gotham.csproj",
-      "packagesPath": "C:\\Users\\usager\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham\\obj\\",
+      "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
+      "projectName": "Gotham.web",
+      "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
+      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\usager\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
