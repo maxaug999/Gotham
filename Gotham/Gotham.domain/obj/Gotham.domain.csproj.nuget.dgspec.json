@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {}
+    "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
+    "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+        "projectUniqueName": "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
         "projectName": "Gotham.domain",
-        "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
-        "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\obj\\",
+        "projectPath": "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+        "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
