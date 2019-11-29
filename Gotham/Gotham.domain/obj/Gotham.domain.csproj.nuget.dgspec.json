@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Ivan\\Source\\Repos\\Gotham2\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {}
   },
   "projects": {
@@ -12,13 +13,32 @@
         "projectPath": "C:\\Users\\Ivan\\Source\\Repos\\Gotham2\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
         "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Ivan\\Source\\Repos\\Gotham2\\Gotham\\Gotham.domain\\obj\\",
+=======
+    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+        "projectName": "Gotham.domain",
+        "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+        "packagesPath": "C:\\Users\\usager\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\obj\\",
+>>>>>>> bb4d52c44e0b67ebfc9d9fd5b8620a8ea9341e75
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\usager\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> bb4d52c44e0b67ebfc9d9fd5b8620a8ea9341e75
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
