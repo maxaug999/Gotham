@@ -8,27 +8,24 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\William\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Ivan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Source\\Repos\\Gotham2\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
       "projectName": "Gotham.domain",
-      "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
-      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\obj\\",
+      "projectPath": "C:\\Users\\Ivan\\Source\\Repos\\Gotham2\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+      "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ivan\\Source\\Repos\\Gotham2\\Gotham\\Gotham.domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
