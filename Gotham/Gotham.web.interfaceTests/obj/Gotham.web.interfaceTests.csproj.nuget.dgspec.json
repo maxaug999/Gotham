@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {}
+    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {
+    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
+        "projectUniqueName": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
         "projectName": "Gotham.web.interfaceTests",
-        "projectPath": "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
-        "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samue\\Documents\\GitHub\\Gotham\\Gotham\\Gotham.web.interfaceTests\\obj\\",
+        "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
+        "packagesPath": "C:\\Users\\usager\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usager\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -45,11 +45,11 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.2.0, )"
+              "version": "[16.4.0, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.13.0, )"
+              "version": "[3.15.1, )"
             },
             "nunit": {
               "target": "Package",
