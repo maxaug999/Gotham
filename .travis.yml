@@ -1,4 +1,6 @@
 language: csharp
+services:
+    - docker
 mono: none
 dotnet: 3.0
 script:
