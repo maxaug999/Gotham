@@ -1,5 +1,15 @@
 language: csharp
 mono: none
 dotnet: 3.0
+<<<<<<< HEAD
 script:
 - dotnet build ./Gotham/Gotham.web
+=======
+services:
+    - docker
+script:
+- dotnet build Gotham/Gotham.web/
+- dotnet build Gotham/Gotham.web.acceptanceTests/
+- dotnet test Gotham/Gotham.web.acceptanceTests/
+- docker build -t testgotham .
+>>>>>>> 003337c7312272ec1dd83f631ce0a697dcf3492c
