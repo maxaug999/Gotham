@@ -1,8 +1,8 @@
 language: csharp
-services:
-    - docker
 mono: none
 dotnet: 3.0
+services:
+    - docker
 script:
 - dotnet build Gotham/Gotham.web/
 - dotnet build Gotham/Gotham.web.acceptanceTests/
