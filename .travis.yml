@@ -7,4 +7,4 @@ script:
 - dotnet build Gotham/Gotham.web/
 - dotnet build Gotham/Gotham.web.acceptanceTests/
 - dotnet test Gotham/Gotham.web.acceptanceTests/
-- docker build -t testgotham -f ./Gotham/Dockerfile .
+- docker build -t testgotham .
