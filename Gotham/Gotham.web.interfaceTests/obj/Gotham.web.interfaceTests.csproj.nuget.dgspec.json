@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {}
+    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {
+    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
+        "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
         "projectName": "Gotham.web.interfaceTests",
-        "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
-        "packagesPath": "C:\\Users\\usager\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\obj\\",
+        "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
+        "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\usager\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

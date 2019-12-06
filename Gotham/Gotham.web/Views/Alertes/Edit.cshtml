@@ -1,0 +1,59 @@
+﻿@model Gotham.domain.Alerte
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Alerte</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nature" class="control-label"></label>
+                <input asp-for="Nature" class="form-control" />
+                <span asp-validation-for="Nature" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Secteur" class="control-label"></label>
+                <input asp-for="Secteur" class="form-control" />
+                <span asp-validation-for="Secteur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Risque" class="control-label"></label>
+                <input asp-for="Risque" class="form-control" />
+                <span asp-validation-for="Risque" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ressource" class="control-label"></label>
+                <input asp-for="Ressource" class="form-control" />
+                <span asp-validation-for="Ressource" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Conseil" class="control-label"></label>
+                <input asp-for="Conseil" class="form-control" />
+                <span asp-validation-for="Conseil" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Publié" /> @Html.DisplayNameFor(model => model.Publié)
+                </label>
+            </div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
