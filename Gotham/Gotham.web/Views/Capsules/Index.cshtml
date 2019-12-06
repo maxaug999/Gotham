@@ -22,7 +22,7 @@
                 @Html.DisplayNameFor(model => model.Lien)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Status)
+                Publié?
             </th>
             <th></th>
         </tr>
@@ -40,7 +40,7 @@
                 @Html.DisplayFor(modelItem => item.Lien)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Status)
+                @Html.DisplayFor(modelItem => item.Publie)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

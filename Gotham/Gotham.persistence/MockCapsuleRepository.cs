@@ -1,8 +1,4 @@
 ﻿using Gotham.domain;
-using Gotham.web.Models;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -23,7 +19,8 @@ namespace Gotham.persistence
                     Titre = "Vol armé",
                     Lien = "https//:tva.com",
                     Texte = "blablabla",
-                    Status = "Publiée"
+                    Publie = true,
+                    VideoUrl = "https://www.youtube.com/watch?v=acTzyrKL9yo"
                 },
                 new Capsule()
                 {
@@ -31,19 +28,31 @@ namespace Gotham.persistence
                     Titre = "Assassin",
                     Lien = "haiti news",
                     Texte = "gwos chef bandit",
-                    Status = "En attente"
+                    Publie = false,
+                    VideoUrl = "https://www.youtube.com/watch?v=RRGhryMxifo"
                 },
             };
         }
 
         public Task Add(Capsule entity)
         {
-            throw new NotImplementedException();
+            _capsules.Add(entity);
+            return Task.CompletedTask;
         }
 
         public Task Delete(Capsule entity)
         {
-            throw new NotImplementedException();
+            var index = 0;
+            foreach (var capsule in _capsules)
+            {
+                if (capsule.Id == entity.Id)
+                {
+                    break;
+                }
+                index++;
+            }
+            _capsules.RemoveAt(index);
+            return Task.CompletedTask;
         }
 
         public async Task<IQueryable<Capsule>> GetAll()
@@ -52,14 +61,33 @@ namespace Gotham.persistence
             return await Task.Run(() => list);
         }
 
-        public Task<Capsule> GetById(int? id)
+        public async Task<Capsule> GetById(int? id)
         {
-            throw new NotImplementedException();
+            foreach (var capsule in _capsules)
+            {
+                if (capsule.Id == id)
+                {
+                    return await Task.Run(() => capsule);
+                }
+            }
+            return null;
         }
 
         public Task Update(Capsule entity)
         {
-            throw new NotImplementedException();
+            foreach (var capsule in _capsules)
+            {
+                if (capsule.Id == entity.Id)
+                {
+                    capsule.Titre = entity.Titre;
+                    capsule.Texte = entity.Texte;
+                    capsule.Lien = entity.Lien;
+                    capsule.Publie = entity.Publie;
+                    capsule.VideoUrl = entity.VideoUrl;
+                    break;
+                }
+            }            
+            return Task.CompletedTask;
         }
     }
 }
