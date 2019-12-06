@@ -31,20 +31,6 @@ namespace Gotham.web.Controllers
             return View(alertes);
         }
 
-        /*
-        private readonly GothamwebContext _context;
-
-        public AlertesController(GothamwebContext context)
-        {
-            _context = context;
-        }
-
-        // GET: Alertes
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Alerte.ToListAsync());
-        }
-
         // GET: Alertes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -53,35 +39,13 @@ namespace Gotham.web.Controllers
                 return NotFound();
             }
 
-            var alerte = await _context.Alerte
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var alerte = await _repository.GetById(id);
+
             if (alerte == null)
             {
                 return NotFound();
             }
 
-            return View(alerte);
-        }
-
-        // GET: Alertes/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Alertes/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Nature,Secteur,Risque,Ressource,Conseil,Publication,Id")] Alerte alerte)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(alerte);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
             return View(alerte);
         }
 
@@ -93,7 +57,7 @@ namespace Gotham.web.Controllers
                 return NotFound();
             }
 
-            var alerte = await _context.Alerte.FindAsync(id);
+            var alerte = await _repository.GetById(id);
             if (alerte == null)
             {
                 return NotFound();
@@ -101,12 +65,9 @@ namespace Gotham.web.Controllers
             return View(alerte);
         }
 
-        // POST: Alertes/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Nature,Secteur,Risque,Ressource,Conseil,Publication,Id")] Alerte alerte)
+        public async Task<IActionResult> Edit(int id, [Bind("Nature,Secteur,Risque,Ressource,Conseil,Publié,Id")] Alerte alerte)
         {
             if (id != alerte.Id)
             {
@@ -117,8 +78,7 @@ namespace Gotham.web.Controllers
             {
                 try
                 {
-                    _context.Update(alerte);
-                    await _context.SaveChangesAsync();
+                    await _repository.Update(alerte);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -136,38 +96,124 @@ namespace Gotham.web.Controllers
             return View(alerte);
         }
 
-        // GET: Alertes/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Publish(int id, [Bind("Nature,Secteur,Risque,Ressource,Conseil,Publié,Id")] Alerte alerte)
+        {
+            if (id != alerte.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    Alerte oldAlert = await _repository.GetById(alerte.Id);
+                    alerte.Nature = oldAlert.Nature;
+                    alerte.Ressource = oldAlert.Ressource;
+                    alerte.Risque = oldAlert.Risque;
+                    alerte.Secteur = oldAlert.Secteur;
+                    alerte.Conseil = oldAlert.Conseil;
+                    alerte.Publié = true;
+                    await _repository.Update(alerte);
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!AlerteExists(alerte.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(alerte);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Withdraw(int id, [Bind("Id")] Alerte alerte)
+        {
+            if (id != alerte.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    Alerte oldAlert = await _repository.GetById(alerte.Id);
+                    alerte.Publié = false;
+                    alerte.Nature = oldAlert.Nature;
+                    alerte.Ressource = oldAlert.Ressource;
+                    alerte.Risque = oldAlert.Risque;
+                    alerte.Secteur = oldAlert.Secteur;
+                    alerte.Conseil = oldAlert.Conseil;
+                    await _repository.Update(alerte);
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!AlerteExists(alerte.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(alerte);
+        }
+
+        public async Task<IActionResult> Publish(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var alerte = await _context.Alerte
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var alerte = await _repository.GetById(id);
             if (alerte == null)
             {
                 return NotFound();
             }
-
             return View(alerte);
         }
 
-        // POST: Alertes/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        // GET: Alertes/Create
+        public IActionResult Create()
         {
-            var alerte = await _context.Alerte.FindAsync(id);
-            _context.Alerte.Remove(alerte);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return View();
+        }
+
+        // POST: Alertes/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Nature,Secteur,Risque,Ressource,Conseil,Publié,Id")] Alerte alerte)
+        {
+            if (ModelState.IsValid)
+            {
+                await _repository.Add(alerte);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(alerte);
         }
 
         private bool AlerteExists(int id)
         {
-            return _context.Alerte.Any(e => e.Id == id);
-        }*/
+            Alerte alerte = _repository.GetById(id).Result;
+
+            if (alerte == null)
+                return false;
+            else
+                return true;
+        }
     }
 }

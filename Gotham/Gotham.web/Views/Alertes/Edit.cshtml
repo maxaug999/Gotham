@@ -37,11 +37,7 @@
                 <input asp-for="Conseil" class="form-control" />
                 <span asp-validation-for="Conseil" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Publié" /> @Html.DisplayNameFor(model => model.Publié)
-                </label>
-            </div>
+            
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

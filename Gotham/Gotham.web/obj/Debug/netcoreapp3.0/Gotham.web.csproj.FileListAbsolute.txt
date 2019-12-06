@@ -293,7 +293,7 @@ C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debu
 C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.dll
 C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.pdb
 C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Create.cshtml.g.cs
-C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Delete.cshtml.g.cs
 C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Details.cshtml.g.cs
 C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Edit.cshtml.g.cs
 C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Index.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Publish.cshtml.g.cs

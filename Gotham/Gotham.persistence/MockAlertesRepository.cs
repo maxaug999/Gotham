@@ -44,12 +44,37 @@ namespace Gotham.persistence
 
         public Task<Alerte> GetById(int? id)
         {
-            throw new NotImplementedException();
+            Alerte alertToReturn = null;
+            foreach(Alerte alerte in _alertes)
+            {
+                if(alerte.Id == id)
+                {
+                    alertToReturn = alerte;
+                    break;
+                }
+            }
+
+            return Task.Run(() => alertToReturn);
         }
 
         public Task Update(Alerte entity)
         {
-            throw new NotImplementedException();
+            foreach(Alerte alerte in _alertes)
+            {
+                if (alerte.Id == entity.Id)
+                {
+                    alerte.Nature = entity.Nature;
+                    alerte.Publié = entity.Publié;
+                    alerte.Ressource = entity.Ressource;
+                    alerte.Risque = entity.Risque;
+                    alerte.Secteur = entity.Secteur;
+                    alerte.Conseil = entity.Conseil;
+                    break;
+                }
+            }
+
+            var items = _alertes.AsQueryable();
+            return Task.Run(() => items);
         }
     }
 }

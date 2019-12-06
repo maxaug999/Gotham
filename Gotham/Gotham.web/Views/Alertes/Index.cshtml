@@ -55,9 +55,16 @@
                 @Html.DisplayFor(modelItem => item.Publié)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Mettre à jour</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Détails</a> |
+                @if (item.Publié)
+                {
+                    <a asp-action="Publish" asp-route-id="@item.Id">Dépublier</a>
+                }
+                else
+                {
+                    <a asp-action="Publish" asp-route-id="@item.Id">Publier</a>
+                }
             </td>
         </tr>
 }
