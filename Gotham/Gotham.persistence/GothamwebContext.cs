@@ -10,5 +10,6 @@ namespace Gotham.web.Models
         }
 
         public DbSet<Gotham.domain.Nouvelle> Nouvelle { get; set; }
+        public DbSet<Gotham.domain.Alerte> Alerte { get; set; }
     }
 }
