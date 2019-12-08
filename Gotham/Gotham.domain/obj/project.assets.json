@@ -9,21 +9,19 @@
   },
   "packageFolders": {
     "C:\\Users\\William\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+      "projectUniqueName": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
       "projectName": "Gotham.domain",
-      "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+      "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
       "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\obj\\",
+      "outputPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",

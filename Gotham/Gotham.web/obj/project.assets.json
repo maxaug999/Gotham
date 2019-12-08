@@ -8147,21 +8147,19 @@
   },
   "packageFolders": {
     "C:\\Users\\William\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
+      "projectUniqueName": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
       "projectName": "Gotham.web",
-      "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
+      "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
       "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web\\obj\\",
+      "outputPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8178,11 +8176,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
-              "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj"
+            "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
+              "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj"
             },
-            "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj": {
-              "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj"
+            "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj": {
+              "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj"
             }
           }
         }

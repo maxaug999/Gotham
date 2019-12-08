@@ -18,8 +18,8 @@ namespace Gotham.persistence
         {
             _alertes = new List<Alerte>()
             {
-                new Alerte(){Id=1, Nature = "Accident", Secteur = "Québec", Risque = "Aucun", Ressource = "Bateau", Conseil = "Aucun", Publié = false},
-                new Alerte(){Id=2, Nature = "Accident2", Secteur = "Montréal", Risque = "Plein", Ressource = "Aucune", Conseil = "Courrir", Publié = true},
+                new Alerte(){Id=1, Nature = "Accident", Secteur = "Quebec", Risque = "Aucun", Ressource = "Bateau", Conseil = "Aucun", Publié = false},
+                new Alerte(){Id=2, Nature = "Accident2", Secteur = "Montreal", Risque = "Plein", Ressource = "Aucune", Conseil = "Courrir", Publié = true},
             };
         }
         public Task Add(Alerte entity)

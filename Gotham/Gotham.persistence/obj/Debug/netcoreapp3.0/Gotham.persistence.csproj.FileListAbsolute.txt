@@ -20,3 +20,14 @@ C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.persistence\
 C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.persistence\obj\Debug\netcoreapp3.0\Gotham.persistence.csproj.CopyComplete
 C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.persistence\obj\Debug\netcoreapp3.0\Gotham.persistence.dll
 C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.persistence\obj\Debug\netcoreapp3.0\Gotham.persistence.pdb
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\bin\Debug\netcoreapp3.0\Gotham.persistence.deps.json
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\bin\Debug\netcoreapp3.0\Gotham.persistence.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\bin\Debug\netcoreapp3.0\Gotham.persistence.pdb
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\bin\Debug\netcoreapp3.0\Gotham.domain.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\bin\Debug\netcoreapp3.0\Gotham.domain.pdb
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\obj\Debug\netcoreapp3.0\Gotham.persistence.csprojAssemblyReference.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\obj\Debug\netcoreapp3.0\Gotham.persistence.AssemblyInfoInputs.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\obj\Debug\netcoreapp3.0\Gotham.persistence.AssemblyInfo.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\obj\Debug\netcoreapp3.0\Gotham.persistence.csproj.CopyComplete
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\obj\Debug\netcoreapp3.0\Gotham.persistence.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.persistence\obj\Debug\netcoreapp3.0\Gotham.persistence.pdb

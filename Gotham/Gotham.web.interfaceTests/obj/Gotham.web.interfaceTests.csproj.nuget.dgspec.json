@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {}
+    "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {
+    "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
+        "projectUniqueName": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
         "projectName": "Gotham.web.interfaceTests",
-        "projectPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
+        "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\Documents\\École\\Analyse\\EFCS\\Gotham\\Gotham\\Gotham.web.interfaceTests\\obj\\",
+        "outputPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web.interfaceTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
