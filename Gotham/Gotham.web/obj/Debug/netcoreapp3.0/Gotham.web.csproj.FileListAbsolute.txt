@@ -145,3 +145,307 @@ C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Ra
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Edit.cshtml.g.cs
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Index.cshtml.g.cs
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.exe
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.deps.json
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.runtimeconfig.json
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.runtimeconfig.dev.json
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.pdb
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.Views.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.Views.pdb
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.domain.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.persistence.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.domain.pdb
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.persistence.pdb
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.csprojAssemblyReference.cache
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\staticwebassets\Gotham.web.StaticWebAssets.Manifest.cache
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\staticwebassets\Gotham.web.StaticWebAssets.xml
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorAssemblyInfo.cache
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorAssemblyInfo.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.AssemblyInfoInputs.cache
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.AssemblyInfo.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.TagHelpers.input.cache
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.TagHelpers.output.cache
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorCoreGenerate.cache
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Create.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Delete.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Details.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Edit.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Index.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorTargetAssemblyInfo.cache
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorTargetAssemblyInfo.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.Views.pdb
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.csproj.CopyComplete
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.dll
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.pdb
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Create.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Details.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Edit.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Index.cshtml.g.cs
+C:\Users\William\Documents\École\Analyse\EFCS\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Publish.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\appsettings.json
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.exe
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.deps.json
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.runtimeconfig.json
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.runtimeconfig.dev.json
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.pdb
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.Views.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.web.Views.pdb
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Debug.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.domain.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.persistence.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.domain.pdb
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\bin\Debug\netcoreapp3.0\Gotham.persistence.pdb
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.csprojAssemblyReference.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\staticwebassets\Gotham.web.StaticWebAssets.Manifest.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\staticwebassets\Gotham.web.StaticWebAssets.xml
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.MvcApplicationPartsAssemblyInfo.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorAssemblyInfo.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorAssemblyInfo.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.AssemblyInfoInputs.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.AssemblyInfo.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.TagHelpers.input.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.TagHelpers.output.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorCoreGenerate.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Create.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Details.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Edit.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Index.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Publish.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Create.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Delete.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Details.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Edit.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Nouvelles\Index.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorTargetAssemblyInfo.cache
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorTargetAssemblyInfo.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.Views.pdb
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.csproj.CopyComplete
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.dll
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.pdb
