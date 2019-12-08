@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj": {}
+    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj": {}
   },
   "projects": {
-    "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
+    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+        "projectUniqueName": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
         "projectName": "Gotham.domain",
-        "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
-        "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\obj\\",
+        "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj",
+        "packagesPath": "C:\\Users\\usager\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usager\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -60,20 +61,21 @@
         }
       }
     },
-    "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj": {
+    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj",
+        "projectUniqueName": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj",
         "projectName": "Gotham.persistence",
-        "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj",
-        "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\obj\\",
+        "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj",
+        "packagesPath": "C:\\Users\\usager\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usager\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -87,8 +89,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
-                "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj"
+              "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
+                "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj"
               }
             }
           }
@@ -138,20 +140,21 @@
         }
       }
     },
-    "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj": {
+    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
+        "projectUniqueName": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
         "projectName": "Gotham.web",
-        "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
-        "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\obj\\",
+        "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
+        "packagesPath": "C:\\Users\\usager\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usager\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -165,11 +168,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
-                "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj"
+              "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
+                "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj"
               },
-              "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj": {
-                "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj"
+              "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj": {
+                "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj"
               }
             }
           }
