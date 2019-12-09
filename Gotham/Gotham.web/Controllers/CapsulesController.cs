@@ -85,7 +85,7 @@ namespace Gotham.web.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Titre,Texte,Lien,StatusPublication,VideoUrl,Id")] Capsule capsule)
+        public async Task<IActionResult> Edit(int id, [Bind("Titre,Texte,Lien,Publie,VideoUrl,Id")] Capsule capsule)
         {
             if (id != capsule.Id)
             {
