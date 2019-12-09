@@ -58,7 +58,7 @@ namespace Gotham.web.Controllers
 
             return View(nouvelle);
         }
-        /*
+        
         // GET: Nouvelles/Create
         public IActionResult Create()
         {
@@ -74,13 +74,12 @@ namespace Gotham.web.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(nouvelle);
-                await _context.SaveChangesAsync();
+                await _repository.Add(nouvelle);
                 return RedirectToAction(nameof(Index));
             }
             return View(nouvelle);
         }
-
+        /*
         // GET: Nouvelles/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
