@@ -11,12 +11,17 @@ namespace Gotham.web.unitTests
 {
     public class NouvellesControllerTests
     {
+        MockNouvellesRepository mockRepo;
+        NouvellesController controller;
+        public NouvellesControllerTests()
+        {
+            mockRepo = new MockNouvellesRepository();
+            controller = new NouvellesController(mockRepo);
+        }
+
         [Fact]
         public async Task Test_Index_Returns_A_ViewResult()
         {
-            var mockRepo = new MockNouvellesRepository();
-            var controller = new NouvellesController(mockRepo);
-
             var result = await controller.Index();
 
             Assert.IsType<ViewResult>(result);
@@ -25,9 +30,6 @@ namespace Gotham.web.unitTests
         [Fact]
         public async Task Test_Index_Model_Is_An_Enumerable_Model_Of_Nouvelles()
         {
-            var mockRepo = new MockNouvellesRepository();
-            var controller = new NouvellesController(mockRepo);
-
             var result = await controller.Index() as ViewResult;
 
             Assert.IsAssignableFrom<IEnumerable<Nouvelle>>(result.ViewData.Model);
@@ -36,9 +38,7 @@ namespace Gotham.web.unitTests
         [Fact]
         public async Task Index_Last_Nouvelle_Should_Be_In_View()
         {
-            var mockRepo = new MockNouvellesRepository();
-            var controller = new NouvellesController(mockRepo);
-
+            controller.Add
             var result = await controller.Index() as ViewResult;
 
             var viewResult = Assert.IsType<ViewResult>(result);

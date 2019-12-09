@@ -92,3 +92,4 @@ C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\n
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\nunit.engine.api.dll
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\netcoreapp3.0\Gotham.web.interfaceTests.csprojAssemblyReference.cache
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\WebDriver.dll
