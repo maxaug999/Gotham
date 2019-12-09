@@ -38,12 +38,14 @@ namespace Gotham.persistence
 
         public Task Add(Nouvelle entity)
         {
-            throw new NotImplementedException();
+            _nouvelles.Add(entity);
+            return Task.CompletedTask;
         }
 
         public Task Delete(Nouvelle entity)
         {
-            throw new NotImplementedException();
+            _nouvelles.Remove(entity);
+            return Task.CompletedTask;
         }
 
         public async Task<IQueryable<Nouvelle>> GetAll()

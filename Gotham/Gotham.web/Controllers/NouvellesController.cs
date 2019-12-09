@@ -28,20 +28,7 @@ namespace Gotham.web.Controllers
 
             return View(nouvelles);
         }
-        /*
-        private readonly GothamwebContext _context;
 
-        public NouvellesController(GothamwebContext context)
-        {
-            _context = context;
-        }
-
-        // GET: Nouvelles
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Nouvelle.ToListAsync());
-        }
-        */
         // GET: Nouvelles/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -130,7 +117,7 @@ namespace Gotham.web.Controllers
             }
             return View(nouvelle);
         }
-        /*
+        
         // GET: Nouvelles/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -139,8 +126,7 @@ namespace Gotham.web.Controllers
                 return NotFound();
             }
 
-            var nouvelle = await _context.Nouvelle
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var nouvelle = await _repository.GetById(id);
             if (nouvelle == null)
             {
                 return NotFound();
@@ -148,21 +134,25 @@ namespace Gotham.web.Controllers
 
             return View(nouvelle);
         }
-
+        
         // POST: Nouvelles/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var nouvelle = await _context.Nouvelle.FindAsync(id);
-            _context.Nouvelle.Remove(nouvelle);
-            await _context.SaveChangesAsync();
+            var nouvelle = _repository.GetById(id).Result;
+            await _repository.Delete(nouvelle);
             return RedirectToAction(nameof(Index));
         }
 
         private bool NouvelleExists(int id)
         {
-            return _context.Nouvelle.Any(e => e.Id == id);
-        }*/
+            Nouvelle nouvelle = _repository.GetById(id).Result;
+
+            if (nouvelle == null)
+                return false;
+            else
+                return true;
+        }
     }
 }
