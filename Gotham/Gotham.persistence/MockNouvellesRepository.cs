@@ -23,7 +23,7 @@ namespace Gotham.persistence
                     Titre = "Vol armé",
                     Lien = "https//:tva.com",
                     Texte = "blablabla",
-                    Status = "Publiée"
+                    Status = 0
                 },
                 new Nouvelle()
                 {
@@ -31,7 +31,7 @@ namespace Gotham.persistence
                     Titre = "Assassin",
                     Lien = "haiti news",
                     Texte = "gwos chef bandit",
-                    Status = "En attente"
+                    Status = 1
                 },
             };
         }

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Gotham.domain;
 using Gotham.persistence;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Gotham.web.Controllers
 {
@@ -79,7 +80,7 @@ namespace Gotham.web.Controllers
             }
             return View(nouvelle);
         }
-        /*
+        
         // GET: Nouvelles/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -88,14 +89,14 @@ namespace Gotham.web.Controllers
                 return NotFound();
             }
 
-            var nouvelle = await _context.Nouvelle.FindAsync(id);
+            var nouvelle = await _repository.GetById(id);
             if (nouvelle == null)
             {
                 return NotFound();
             }
             return View(nouvelle);
         }
-
+        
         // POST: Nouvelles/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -112,8 +113,7 @@ namespace Gotham.web.Controllers
             {
                 try
                 {
-                    _context.Update(nouvelle);
-                    await _context.SaveChangesAsync();
+                    await _repository.Update(nouvelle);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -130,7 +130,7 @@ namespace Gotham.web.Controllers
             }
             return View(nouvelle);
         }
-
+        /*
         // GET: Nouvelles/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

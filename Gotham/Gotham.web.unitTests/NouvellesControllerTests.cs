@@ -32,5 +32,17 @@ namespace Gotham.web.unitTests
 
             Assert.IsAssignableFrom<IEnumerable<Nouvelle>>(result.ViewData.Model);
         }
+
+        [Fact]
+        public async Task Index_Last_Nouvelle_Should_Be_In_View()
+        {
+            var mockRepo = new MockNouvellesRepository();
+            var controller = new NouvellesController(mockRepo);
+
+            var result = await controller.Index() as ViewResult;
+
+            var viewResult = Assert.IsType<ViewResult>(result);
+            Assert.Equal(mockRepo._nouvelles[mockRepo._nouvelles.Count - 1], viewResult.ViewData.Model);
+        }
     }
 }
