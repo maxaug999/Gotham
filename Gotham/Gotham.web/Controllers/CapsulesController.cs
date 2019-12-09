@@ -54,7 +54,7 @@ namespace Gotham.web.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Titre,Texte,Lien,Status,Id")] Capsule capsule)
+        public async Task<IActionResult> Create([Bind("Titre,Texte,VideoUrl,Publié,Id")] Capsule capsule)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace Gotham.web.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Titre,Texte,Lien,Publie,VideoUrl,Id")] Capsule capsule)
+        public async Task<IActionResult> Edit(int id, [Bind("Titre,Texte,Lien,Publié,VideoUrl,Id")] Capsule capsule)
         {
             if (id != capsule.Id)
             {
@@ -140,6 +140,91 @@ namespace Gotham.web.Controllers
             await _repository.Delete(capsule);
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Publish(int id, [Bind("Titre,Texte,Lien,Publié,VideoUrl,Id")] Capsule capsule)
+        {
+            if (id != capsule.Id)
+            {
+                return NotFound();
+            }
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    Capsule oldCapsule = await _repository.GetById(capsule.Id);
+                    capsule.Titre = oldCapsule.Titre;
+                    capsule.Texte = oldCapsule.Texte;
+                    capsule.Publié = true;
+                    capsule.VideoUrl = oldCapsule.VideoUrl;
+                    await _repository.Update(capsule);
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!CapsuleExists(capsule.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+           return View(capsule);
+        }
+
+        public async Task<IActionResult> Publish(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var capsule = await _repository.GetById(id);
+            if (capsule == null)
+            {
+                return NotFound();
+            }
+            return View(capsule);
+        }
+
+        public async Task<IActionResult> Withdraw(int id, [Bind("Id")] Capsule capsule)
+        {
+            if (id != capsule.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    Capsule oldCapsule = await _repository.GetById(capsule.Id);
+                    capsule.Titre = oldCapsule.Titre;
+                    capsule.Texte = oldCapsule.Texte;
+                    capsule.Publié = false;
+                    capsule.VideoUrl = oldCapsule.VideoUrl;
+                    await _repository.Update(capsule);
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!CapsuleExists(capsule.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(capsule);
+        }
+
 
         private bool CapsuleExists(int id)
         {

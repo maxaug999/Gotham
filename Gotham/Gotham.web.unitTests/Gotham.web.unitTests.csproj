@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Gotham.persistence\Gotham.persistence.csproj" />
+    <ProjectReference Include="..\Gotham.web\Gotham.web.csproj" />
+  </ItemGroup>
+
 </Project>

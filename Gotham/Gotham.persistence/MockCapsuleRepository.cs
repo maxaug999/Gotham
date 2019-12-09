@@ -1,4 +1,5 @@
 ﻿using Gotham.domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,20 +17,18 @@ namespace Gotham.persistence
                 new Capsule()
                 {
                     Id = 1,
-                    Titre = "Vol armé",
-                    Lien = "https//:tva.com",
+                    Titre = "Vol arme",
                     Texte = "blablabla",
-                    Publie = true,
-                    VideoUrl = "https://www.youtube.com/watch?v=acTzyrKL9yo"
+                    Publié = true,
+                    VideoUrl = new Uri("https://www.youtube.com/watch?v=acTzyrKL9yo")
                 },
                 new Capsule()
                 {
                     Id = 2,
                     Titre = "Assassin",
-                    Lien = "haiti news",
                     Texte = "gwos chef bandit",
-                    Publie = false,
-                    VideoUrl = "https://www.youtube.com/watch?v=RRGhryMxifo"
+                    Publié = false,
+                    VideoUrl = new Uri("https://www.youtube.com/watch?v=RRGhryMxifo")
                 },
             };
         }
@@ -81,8 +80,7 @@ namespace Gotham.persistence
                 {
                     capsule.Titre = entity.Titre;
                     capsule.Texte = entity.Texte;
-                    capsule.Lien = entity.Lien;
-                    capsule.Publie = entity.Publie;
+                    capsule.Publié = entity.Publié;
                     capsule.VideoUrl = entity.VideoUrl;
                     break;
                 }
