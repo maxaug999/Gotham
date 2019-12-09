@@ -20,7 +20,7 @@ namespace Gotham.persistence
                 new Nouvelle()
                 {
                     Id = 1,
-                    Titre = "Vol armé",
+                    Titre = "Vol",
                     Lien = "https//:tva.com",
                     Texte = "blablabla",
                     Status = 0
@@ -54,9 +54,9 @@ namespace Gotham.persistence
             return await Task.Run(() => list);
         }
 
-        public Task<Nouvelle> GetById(int? id)
+        public async Task<Nouvelle> GetById(int? id)
         {
-            throw new NotImplementedException();
+            return await Task.Run(() => _nouvelles.Find(i => i.Id == id));
         }
 
         public Task Update(Nouvelle entity)

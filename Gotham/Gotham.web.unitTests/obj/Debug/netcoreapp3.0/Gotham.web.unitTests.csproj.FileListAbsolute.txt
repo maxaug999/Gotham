@@ -204,3 +204,10 @@ C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcor
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\Gotham.persistence.pdb
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\Gotham.web.pdb
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\Gotham.domain.pdb
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.unitTests\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll

@@ -83,7 +83,6 @@ C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\n
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\netcoreapp3.0\Gotham.web.interfaceTests.csprojAssemblyReference.cache
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\netcoreapp3.0\Gotham.web.interfaceTests.AssemblyInfoInputs.cache
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\netcoreapp3.0\Gotham.web.interfaceTests.AssemblyInfo.cs
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\netcoreapp3.0\Gotham.web.interfaceTests.csproj.CopyComplete
@@ -92,3 +91,4 @@ C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\n
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\nunit.engine.dll
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\nunit.engine.api.dll
 C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\netcoreapp3.0\Gotham.web.interfaceTests.csprojAssemblyReference.cache
