@@ -12,7 +12,7 @@ namespace Gotham.persistence
 
     public class MockAlertesRepository : IRepository<Alerte>
     {
-        private readonly List<Alerte> _alertes;
+        public readonly List<Alerte> _alertes;
 
         public MockAlertesRepository()
         {

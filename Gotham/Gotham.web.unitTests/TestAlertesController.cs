@@ -12,6 +12,14 @@ namespace Gotham.web.unitTests
 {
     public class TestAlertesController
     {
+        MockAlertesRepository mockRepo;
+        AlertesController controller;
+
+        public TestAlertesController()
+        {
+            mockRepo = new MockAlertesRepository();
+            controller = new AlertesController(mockRepo);
+        }
         [Fact]
         public async Task Test_Index_Returns_A_ViewResult()
         {
@@ -32,6 +40,15 @@ namespace Gotham.web.unitTests
             var result = await controller.Index() as ViewResult;
 
             Assert.IsAssignableFrom<IEnumerable<Alerte>>(result.ViewData.Model);
+        }
+
+        [Fact]
+        public async Task Index_Last_Alert_Should_Be_In_View()
+        {
+            var result = await controller.Index() as ViewResult;
+
+            var viewResult = Assert.IsType<ViewResult>(result);
+            Assert.Contains(mockRepo._alertes.ToString(), viewResult.ViewData.Model.ToString());
         }
     }
 }
