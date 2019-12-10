@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 
 namespace Gotham.persistence
 {
-    public class MockNouvelleRepository : IRepository<Nouvelle>
+    public class MockNouvellesRepository : IRepository<Nouvelle>
     {
-        public List<Nouvelle> _signatures;
+        public List<Nouvelle> _nouvelles;
 
-        public MockNouvelleRepository()
+        public MockNouvellesRepository()
         {
-            _signatures = new List<Nouvelle>()
+            _nouvelles = new List<Nouvelle>()
             {
                 new Nouvelle()
                 {
                     Id = 1,
-                    Titre = "Vol armé",
+                    Titre = "Vol",
                     Lien = "https//:tva.com",
                     Texte = "blablabla",
-                    Status = "Publiée"
+                    Status = 0
                 },
                 new Nouvelle()
                 {
@@ -31,30 +31,32 @@ namespace Gotham.persistence
                     Titre = "Assassin",
                     Lien = "haiti news",
                     Texte = "gwos chef bandit",
-                    Status = "En attente"
+                    Status = 1
                 },
             };
         }
 
         public Task Add(Nouvelle entity)
         {
-            throw new NotImplementedException();
+            _nouvelles.Add(entity);
+            return Task.CompletedTask;
         }
 
         public Task Delete(Nouvelle entity)
         {
-            throw new NotImplementedException();
+            _nouvelles.Remove(entity);
+            return Task.CompletedTask;
         }
 
         public async Task<IQueryable<Nouvelle>> GetAll()
         {
-            IQueryable<Nouvelle> list = _signatures.AsQueryable();
+            IQueryable<Nouvelle> list = _nouvelles.AsQueryable();
             return await Task.Run(() => list);
         }
 
-        public Task<Nouvelle> GetById(int? id)
+        public async Task<Nouvelle> GetById(int? id)
         {
-            throw new NotImplementedException();
+            return await Task.Run(() => _nouvelles.Find(i => i.Id == id));
         }
 
         public Task Update(Nouvelle entity)

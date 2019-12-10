@@ -1,0 +1,28 @@
+﻿@model Gotham.domain.Alerte
+
+@{
+    ViewData["Title"] = "Publish";
+}
+
+<h1>Publication</h1>
+<div>
+    <h4>@Html.DisplayFor(model => model.Nature) à @Html.DisplayFor(model => model.Secteur)</h4>
+    @if (!Model.Publié)
+    {
+        <form asp-action="Publish">
+            <input type="hidden" asp-for="Id" />
+            <input type="checkbox" name="SMSPublication" value="SMS"> Publier en flux SMS<br><br />
+            <input type="submit" value="Publier" class="btn btn-danger" /> |
+            <a asp-action="Index">Back to List</a>
+        </form>
+    }
+    else
+    {
+        <form asp-action="Withdraw">
+            <input type="hidden" asp-for="Id" />
+            <input type="checkbox" name="SMSPublication" value="SMS"> Publier en flux SMS<br><br />
+            <input type="submit" value="Dépublier" class="btn btn-danger" /> |
+            <a asp-action="Index">Back to List</a>
+        </form>
+    }
+</div>
