@@ -186,3 +186,4 @@ C:\Users\samue\Documents\GitHub\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debu
 C:\Users\samue\Documents\GitHub\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\netcoreapp3.0\Gotham.web.interfaceTests.csproj.CopyComplete
 C:\Users\samue\Documents\GitHub\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\netcoreapp3.0\Gotham.web.interfaceTests.dll
 C:\Users\samue\Documents\GitHub\Gotham\Gotham\Gotham.web.interfaceTests\obj\Debug\netcoreapp3.0\Gotham.web.interfaceTests.pdb
+C:\Users\samue\Documents\GitHub\Gotham\Gotham\Gotham.web.interfaceTests\bin\Debug\netcoreapp3.0\WebDriver.dll

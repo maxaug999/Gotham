@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[3.15.1, )"
             },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
             "nunit": {
               "target": "Package",
               "version": "[3.12.0, )"

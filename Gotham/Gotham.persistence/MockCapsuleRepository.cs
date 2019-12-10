@@ -20,7 +20,7 @@ namespace Gotham.persistence
                     Titre = "Vol arme",
                     Texte = "blablabla",
                     Publié = true,
-                    VideoUrl = new Uri("https://www.youtube.com/watch?v=acTzyrKL9yo")
+                    VideoUrl = new Uri("https://www.youtube.com/watch?v=nmDcybRn4HQ")
                 },
                 new Capsule()
                 {
