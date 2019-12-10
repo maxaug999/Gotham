@@ -29,9 +29,11 @@ namespace Gotham
 
             services.AddSingleton<IRepository<Nouvelle>, MockNouvellesRepository>();
             services.AddSingleton<IRepository<Alerte>, MockAlertesRepository>();
+            services.AddSingleton<IRepository<Signalement>, MockSignalementsRepository>();
 
             //services.AddSingleton<IRepository<Alerte>, RepositoryPattern<Alerte>>();
             //services.AddSingleton<IRepository<Nouvelle>, RepositoryPattern<Nouvelle>>();
+            //services.AddSingleton<IRepository<Signalement>, RepositoryPattern<Signalement>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

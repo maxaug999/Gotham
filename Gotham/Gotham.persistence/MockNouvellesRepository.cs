@@ -61,7 +61,18 @@ namespace Gotham.persistence
 
         public Task Update(Nouvelle entity)
         {
-            throw new NotImplementedException();
+            foreach (Nouvelle cur in _nouvelles)
+            {
+                if (cur.Id == entity.Id)
+                {
+                    cur.Titre = entity.Titre;
+                    cur.Texte = entity.Texte;
+                    cur.Lien = entity.Lien;
+                    cur.Status = entity.Status;
+                    break;
+                }
+            }
+            return Task.CompletedTask;
         }
     }
 }
