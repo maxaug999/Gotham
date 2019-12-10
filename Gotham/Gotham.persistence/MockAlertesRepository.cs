@@ -42,19 +42,9 @@ namespace Gotham.persistence
             return await Task.Run(() => items);
         }
 
-        public Task<Alerte> GetById(int? id)
+        public async Task<Alerte> GetById(int? id)
         {
-            Alerte alertToReturn = null;
-            foreach(Alerte alerte in _alertes)
-            {
-                if(alerte.Id == id)
-                {
-                    alertToReturn = alerte;
-                    break;
-                }
-            }
-
-            return Task.Run(() => alertToReturn);
+            return await Task.Run(() => _alertes.Find(i => i.Id == id));
         }
 
         public Task Update(Alerte entity)
