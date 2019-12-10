@@ -38,7 +38,6 @@ namespace Gotham.web.unitTests
         [Fact]
         public async Task Index_Last_Nouvelle_Should_Be_In_View()
         {
-            controller.Add
             var result = await controller.Index() as ViewResult;
 
             var viewResult = Assert.IsType<ViewResult>(result);

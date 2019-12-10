@@ -15,42 +15,42 @@ namespace Gotham.web.interfaceTests
             {
                 driver.Navigate().GoToUrl(@"https://localhost:44379/");
 
-                var link_alertes = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a"));
-                link_alertes.Click();
-                var publish_link = driver.FindElement(By.XPath("/html/body/div/main/table/tbody/tr[1]/td[7]/a[3]")).Text;
-                StringAssert.Contains("Publier", publish_link);
+                var link_nouvelles = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a"));
+                link_nouvelles.Click();
+                var publish_link = driver.FindElement(By.XPath("/html/body/div/main/h1")).Text;
+                StringAssert.Contains("Liste des nouvelles", publish_link);
             }
         }
 
         [Test]
-        public void Test_Publish_Link()
+        public void Test_Create_New_Link()
         {
             using (var driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)))
             {
                 driver.Navigate().GoToUrl(@"https://localhost:44379/");
 
-                var link_alertes = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a"));
-                link_alertes.Click();
-                var publish_link = driver.FindElement(By.XPath("/html/body/div/main/table/tbody/tr[1]/td[7]/a[3]"));
+                var link_nouvelles = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a"));
+                link_nouvelles.Click();
+                var publish_link = driver.FindElement(By.XPath("/html/body/div/main/p/a"));
                 publish_link.Click();
-                var ExpectedLink = "https://localhost:44379/Nouvelles/Publish/1".ToString();
-                Assert.AreEqual(ExpectedLink, driver.Url);
-            }
-        }
-
-        [Test]
-        public void Test_Create_Link()
-        {
-            using (var driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)))
-            {
-                driver.Navigate().GoToUrl(@"https://localhost:44379/");
-
-                var link_alertes = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a"));
-                link_alertes.Click();
-                var create_new_link = driver.FindElement(By.XPath("/html/body/div/main/p/a"));
-                create_new_link.Click();
                 var ExpectedLink = "https://localhost:44379/Nouvelles/Create".ToString();
                 Assert.AreEqual(ExpectedLink, driver.Url);
+            }
+        }
+
+        [Test]
+        public void Test_Details_Link()
+        {
+            using (var driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)))
+            {
+                driver.Navigate().GoToUrl(@"https://localhost:44379/");
+
+                var link_nouvelles = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a"));
+                link_nouvelles.Click();
+                var details_link = driver.FindElement(By.XPath("/html/body/div/main/table/tbody/tr[1]/td[5]/a[2]"));
+                details_link.Click();
+                var details_title = driver.FindElement(By.XPath("/html/body/div/main/h1")).Text;
+                StringAssert.Contains("Details", details_title);
             }
         }
     }
