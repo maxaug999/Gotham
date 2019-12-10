@@ -1,0 +1,8 @@
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.domain\bin\Debug\netcoreapp3.0\Gotham.domain.deps.json
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.domain\bin\Debug\netcoreapp3.0\Gotham.domain.dll
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.domain\bin\Debug\netcoreapp3.0\Gotham.domain.pdb
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.domain\obj\Debug\netcoreapp3.0\Gotham.domain.AssemblyInfoInputs.cache
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.domain\obj\Debug\netcoreapp3.0\Gotham.domain.AssemblyInfo.cs
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.domain\obj\Debug\netcoreapp3.0\Gotham.domain.dll
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.domain\obj\Debug\netcoreapp3.0\Gotham.domain.pdb
+C:\Users\usager\source\repos\Gotham\Gotham\Gotham.domain\obj\Debug\netcoreapp3.0\Gotham.domain.csprojAssemblyReference.cache
