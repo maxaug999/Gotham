@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net.Http;
 using Microsoft.AspNetCore.Hosting;
@@ -22,7 +22,7 @@ namespace Gotham.web.acceptanceTests
 
             var webAppContentPath = GetAbsoluteWebAppPath(acceptanceTestsBasePath, RELATIVE_WEB_APP_PATH);
 
-            var builder = new WebHostBuilder()
+            var builder = new WebHostBuilder()  
                 .UseContentRoot(webAppContentPath)
                 .UseStartup<Startup>();
 
@@ -54,4 +54,4 @@ namespace Gotham.web.acceptanceTests
             throw new Exception($"Impossible de trouver le dossier de l'application web ({relativeWebAppPath})");
         }
     }
-}
+} 

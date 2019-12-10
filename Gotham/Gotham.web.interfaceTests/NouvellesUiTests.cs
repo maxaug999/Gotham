@@ -15,7 +15,7 @@ namespace Gotham.web.interfaceTests
             {
                 driver.Navigate().GoToUrl(@"https://localhost:44379/");
 
-                var link_nouvelles = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a"));
+                var link_nouvelles = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[4]/a"));
                 link_nouvelles.Click();
                 var publish_link = driver.FindElement(By.XPath("/html/body/div/main/h1")).Text;
                 StringAssert.Contains("Liste des nouvelles", publish_link);
@@ -29,7 +29,7 @@ namespace Gotham.web.interfaceTests
             {
                 driver.Navigate().GoToUrl(@"https://localhost:44379/");
 
-                var link_nouvelles = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a"));
+                var link_nouvelles = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[4]/a"));
                 link_nouvelles.Click();
                 var publish_link = driver.FindElement(By.XPath("/html/body/div/main/p/a"));
                 publish_link.Click();
@@ -45,7 +45,7 @@ namespace Gotham.web.interfaceTests
             {
                 driver.Navigate().GoToUrl(@"https://localhost:44379/");
 
-                var link_nouvelles = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a"));
+                var link_nouvelles = driver.FindElement(By.XPath("/html/body/header/nav/div/div/ul/li[4]/a"));
                 link_nouvelles.Click();
                 var details_link = driver.FindElement(By.XPath("/html/body/div/main/table/tbody/tr[1]/td[5]/a[2]"));
                 details_link.Click();
