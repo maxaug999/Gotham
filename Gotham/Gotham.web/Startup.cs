@@ -28,6 +28,9 @@ namespace Gotham
                     options.UseSqlServer(Configuration.GetConnectionString("GothamwebContext")));
 
             services.AddSingleton<IRepository<Nouvelle>, MockNouvellesRepository>();
+            services.AddSingleton<IRepository<Alerte>, MockAlertesRepository>();
+
+            //services.AddSingleton<IRepository<Alerte>, RepositoryPattern<Alerte>>();
             //services.AddSingleton<IRepository<Nouvelle>, RepositoryPattern<Nouvelle>>();
         }
 
