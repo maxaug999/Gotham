@@ -21,7 +21,7 @@ namespace Gotham.web.acceptanceTests
         private Capsule _capsule;
 
         [Fact]
-        public void afficher_la_liste_de_joueurs()
+        public void afficher_la_liste_de_capsules()
         {
             this.Given(x => une_capsule())
                 .When(x => l_utilisateur_demande_de_voir_la_liste_des_capsulesAsync())
