@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\Ivan\\Source\\Repos\\Gotham2\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {}
   },
   "projects": {
@@ -13,32 +12,13 @@
         "projectPath": "C:\\Users\\Ivan\\Source\\Repos\\Gotham2\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
         "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Ivan\\Source\\Repos\\Gotham2\\Gotham\\Gotham.web.interfaceTests\\obj\\",
-=======
-    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
-        "projectName": "Gotham.web.interfaceTests",
-        "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\Gotham.web.interfaceTests.csproj",
-        "packagesPath": "C:\\Users\\usager\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web.interfaceTests\\obj\\",
->>>>>>> bb4d52c44e0b67ebfc9d9fd5b8620a8ea9341e75
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-          "C:\\Users\\usager\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
->>>>>>> bb4d52c44e0b67ebfc9d9fd5b8620a8ea9341e75
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -68,6 +48,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.15.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
             },
             "nunit": {
               "target": "Package",
