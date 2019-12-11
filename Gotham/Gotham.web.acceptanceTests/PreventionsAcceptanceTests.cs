@@ -44,7 +44,7 @@ namespace Gotham.web.acceptanceTests
             Assert.Contains(PreventionList.Titre, _htmlPageContent);
             Assert.Contains(PreventionList.Texte, _htmlPageContent);
             Assert.Contains(PreventionList.Mois, _htmlPageContent);
-            Assert.Contains(PreventionList.Publie, _htmlPageContent);
+            Assert.Contains(PreventionList.Publié, _htmlPageContent);
         }
     }
 }
