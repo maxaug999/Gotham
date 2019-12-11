@@ -14,9 +14,39 @@ namespace Gotham.persistence.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.0.1")
+                .HasAnnotation("ProductVersion", "3.1.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("Gotham.domain.Alerte", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Conseil")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nature")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Publié")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Ressource")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Risque")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Secteur")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Alerte");
+                });
 
             modelBuilder.Entity("Gotham.domain.Nouvelle", b =>
                 {

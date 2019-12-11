@@ -1,0 +1,40 @@
+version: "3"
+
+## Notes :
+# 1)Si vous voulez tester votre compose localement, utilisez la config build: 
+#   avec les configs locales vers les fichiers Docker
+# 2)Si vous voulez tester à partir d'une image dans le cloud, utilisez la config image:
+# 3)Vous pouvez avoir un mode hybride pour tester
+# 4)Le stating se fera à partir de 2 images dans le cloud
+# 5)Notez l'adresse IP de la BD, vous devrez faire les settings nécessaires
+
+services:
+    web:
+        #image: à compléter selon le mode choisi
+        #build: à compléter selon le mode choisi
+        ports:
+            - "6002:6002"
+        networks:
+            testing_net:
+                ipv4_address: 172.28.1.1
+    db:
+        #image: à compléter selon le mode choisi
+        #build: à compléter selon le mode choisi
+        environment:
+            SA_PASSWORD: "1Secure*Password1"
+            ACCEPT_EULA: "Y"
+        ports: 
+            - "1433:1433"
+        #Petit hack pour que le container reste actif
+        tty: true
+        networks:
+            testing_net:
+                ipv4_address: 172.28.1.2
+        
+        
+networks:
+    testing_net:
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.28.1.0/16

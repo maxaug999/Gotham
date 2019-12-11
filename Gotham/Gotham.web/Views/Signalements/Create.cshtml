@@ -1,0 +1,48 @@
+﻿@model Gotham.domain.Signalement
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Signalement</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nature" class="control-label"></label>
+                <input asp-for="Nature" class="form-control" />
+                <span asp-validation-for="Nature" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Secteur" class="control-label"></label>
+                <input asp-for="Secteur" class="form-control" />
+                <span asp-validation-for="Secteur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Heure" class="control-label"></label>
+                <input asp-for="Heure" class="form-control" />
+                <span asp-validation-for="Heure" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Commentaires" class="control-label"></label>
+                <input asp-for="Commentaires" class="form-control" />
+                <span asp-validation-for="Commentaires" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
