@@ -2,6 +2,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
 
 WORKDIR /app
 COPY ./ ./
+RUN cd ./Gotham.web
 RUN dotnet publish Gotham.web -c Release -o out
 WORKDIR /app/Gotham.web.unitTests
 RUN dotnet test
