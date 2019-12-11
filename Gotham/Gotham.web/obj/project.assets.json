@@ -5110,25 +5110,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usager\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\William\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
+      "projectUniqueName": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
       "projectName": "Gotham.web",
-      "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
-      "packagesPath": "C:\\Users\\usager\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.web\\obj\\",
+      "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\Gotham.web.csproj",
+      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
+      "outputPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\usager\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5142,11 +5140,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
-              "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj"
+            "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj": {
+              "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.domain\\Gotham.domain.csproj"
             },
-            "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj": {
-              "projectPath": "C:\\Users\\usager\\source\\repos\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj"
+            "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj": {
+              "projectPath": "D:\\École\\Session 5\\Analyse\\Gotham\\Gotham\\Gotham.persistence\\Gotham.persistence.csproj"
             }
           }
         }
@@ -5206,7 +5204,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Le package 'Microsoft.VisualStudio.Web.CodeGeneration.Design 3.1.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETCoreApp,Version=v3.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "message": "Package 'Microsoft.VisualStudio.Web.CodeGeneration.Design 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.0"

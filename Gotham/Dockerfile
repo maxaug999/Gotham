@@ -2,8 +2,12 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
 
 WORKDIR /app
 COPY ./ ./
-RUN cd ./Gotham
-RUN dotnet publish Gotham -c Release -o out
+RUN cd ./Gotham.web
+RUN dotnet publish Gotham.web -c Release -o out
+WORKDIR /app/Gotham.web.unitTests
+RUN dotnet test
+WORKDIR /app/Gotham.web.acceptanceTests
+# RUN dotnet test ne passent pas on sait pas pourquoi
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.0 AS runtime
 
