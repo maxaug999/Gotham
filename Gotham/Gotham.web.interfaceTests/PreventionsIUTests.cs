@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace Gotham.web.interfaceTests
 {
-    public class Tests
+    public class PreventionUItests
     {
         [SetUp]
         public void Setup()

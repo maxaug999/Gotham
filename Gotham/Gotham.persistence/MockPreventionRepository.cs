@@ -11,40 +11,40 @@ namespace Gotham.persistence
 {
     public class MockPreventionRepository : IRepository<Prevention>
     {
-        private readonly List<Prevention> _alertes;
+        public List<Prevention> PreventionList;
 
         public MockPreventionRepository()
         {
-            _alertes = new List<Prevention>()
+            PreventionList = new List<Prevention>()
             {
-                new Prevention(){Id=1, Titre = "Accident", Mois = "Janvier", Texte = "Aucun", Publié = false},
-                new Prevention(){Id=2, Titre = "Accident2", Mois = "Fevrier", Texte = "Plein", Publié = true},
+                new Prevention(){Id=1, Titre = "Accident", Mois = "Janvier", Texte = "Aucun", Publié = "NON"},
+                new Prevention(){Id=2, Titre = "Accident2", Mois = "Fevrier", Texte = "Plein", Publié = "OUI"},
             };
         }
         public Task Add(Prevention entity)
         {
-            _alertes.Add(entity);
-            var items = _alertes.AsQueryable();
+            PreventionList.Add(entity);
+            var items = PreventionList.AsQueryable();
             return Task.Run(() => items);
         }
 
         public Task Delete(Prevention entity)
         {
-            _alertes.Remove(entity);
-            var items = _alertes.AsQueryable();
+            PreventionList.Remove(entity);
+            var items = PreventionList.AsQueryable();
             return Task.Run(() => items);
         }
 
         public async Task<IQueryable<Prevention>> GetAll()
         {
-            var items = _alertes.AsQueryable();
+            var items = PreventionList.AsQueryable();
             return await Task.Run(() => items);
         }
 
         public Task<Prevention> GetById(int? id)
         {
             Prevention alertToReturn = null;
-            foreach (Prevention prevention in _alertes)
+            foreach (Prevention prevention in PreventionList)
             {
                 if (prevention.Id == id)
                 {
@@ -58,7 +58,7 @@ namespace Gotham.persistence
 
         public Task Update(Prevention entity)
         {
-            foreach (Prevention prevention in _alertes)
+            foreach (Prevention prevention in PreventionList)
             {
                 if (prevention.Id == entity.Id)
                 {
@@ -70,7 +70,7 @@ namespace Gotham.persistence
                 }
             }
 
-            var items = _alertes.AsQueryable();
+            var items = PreventionList.AsQueryable();
             return Task.Run(() => items);
         }
     }

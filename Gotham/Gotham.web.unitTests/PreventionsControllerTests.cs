@@ -41,7 +41,7 @@ namespace Gotham.web.unitTests
             var result = await controller.Index() as ViewResult;
             var viewResult = Assert.IsType<ViewResult>(result);
 
-            Assert.Contains(mockRepo.PreventionsList[0].ToString(), viewResult.ViewData.Model.ToString());
+            Assert.Contains(mockRepo.PreventionList[0].ToString(), viewResult.ViewData.Model.ToString());
 
         }
     }
