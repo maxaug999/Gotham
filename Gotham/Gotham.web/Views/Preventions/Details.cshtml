@@ -1,0 +1,42 @@
+﻿@model Gotham.domain.Prevention
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Prevention</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Titre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Titre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Texte)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Texte)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Mois)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Mois)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Publie)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Publie)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
