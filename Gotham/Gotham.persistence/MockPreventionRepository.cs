@@ -17,8 +17,8 @@ namespace Gotham.persistence
         {
             PreventionList = new List<Prevention>()
             {
-                new Prevention(){Id=1, Titre = "Accident", Mois = "Janvier", Texte = "Aucun", Publie = "NON"},
-                new Prevention(){Id=2, Titre = "Accident2", Mois = "Fevrier", Texte = "Plein", Publie = "OUI"},
+                new Prevention(){Id=1, Titre = "Accident", Mois = "Janvier", Texte = "Aucun", Publie = "Non"},
+                new Prevention(){Id=2, Titre = "Accident2", Mois = "Fevrier", Texte = "Plein", Publie = "Oui"},
             };
         }
         public Task Add(Prevention entity)

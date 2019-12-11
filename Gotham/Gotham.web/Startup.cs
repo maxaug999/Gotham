@@ -28,7 +28,7 @@ namespace Gotham
                     options.UseSqlServer(Configuration.GetConnectionString("GothamwebContext")));
 
             services.AddSingleton<IRepository<Nouvelle>, MockNouvelleRepository>();
-            //services.AddSingleton<IRepository<Nouvelle>, RepositoryPattern<Nouvelle>>();
+            services.AddSingleton<IRepository<Prevention>, MockPreventionRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
