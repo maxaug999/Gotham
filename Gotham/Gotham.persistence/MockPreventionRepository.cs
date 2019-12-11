@@ -17,8 +17,8 @@ namespace Gotham.persistence
         {
             PreventionList = new List<Prevention>()
             {
-                new Prevention(){Id=1, Titre = "Accident", Mois = "Janvier", Texte = "Aucun", Publié = "NON"},
-                new Prevention(){Id=2, Titre = "Accident2", Mois = "Fevrier", Texte = "Plein", Publié = "OUI"},
+                new Prevention(){Id=1, Titre = "Accident", Mois = "Janvier", Texte = "Aucun", Publie = "NON"},
+                new Prevention(){Id=2, Titre = "Accident2", Mois = "Fevrier", Texte = "Plein", Publie = "OUI"},
             };
         }
         public Task Add(Prevention entity)
@@ -63,7 +63,7 @@ namespace Gotham.persistence
                 if (prevention.Id == entity.Id)
                 {
                     prevention.Mois = entity.Mois;
-                    prevention.Publié = entity.Publié;
+                    prevention.Publie = entity.Publie;
                     prevention.Titre = entity.Titre;
                     prevention.Texte = entity.Texte;
                     break;

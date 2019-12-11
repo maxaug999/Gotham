@@ -9,6 +9,6 @@ namespace Gotham.domain
         public string Titre { get; set; }
         public string Texte { get; set; }
         public string Mois { get; set; }
-        public string Publié { get; set; }
+        public string Publie { get; set; }
     }
 }
