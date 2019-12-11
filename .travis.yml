@@ -5,9 +5,7 @@ services:
     - docker
 script:
 - dotnet build Gotham/Gotham.web/
-- dotnet build Gotham/Gotham.web.acceptanceTests/
-- dotnet test Gotham/Gotham.web.acceptanceTests/
-- docker build -t wlecours/gotham:v0.3.0 -t gotham -f ./Gotham/DockerBD/Dockerfile .
-- docker build -t wlecours/webapp:v0.3.0 -t gotham -f ./Gotham/Dockerfile/Dockerfile .
+- docker build -t wlecours/gotham:v0.3.0 -t gotham -f ./Gotham/DockerfileBD .
+- docker build -t wlecours/webapp:v0.3.0 -t gotham -f ./Gotham/Dockerfile .
 - docker push wlecours/gotham:v0.3.0
 - docker push wlecours/webapp:v0.3.0
