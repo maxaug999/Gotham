@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Gotham.domain.Alerte>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Secteur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Risque)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ressource)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Conseil)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Publié)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Secteur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Risque)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ressource)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Conseil)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Publié)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Mettre à jour</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Détails</a> |
+                @if (item.Publié)
+                {
+                    <a asp-action="Publish" asp-route-id="@item.Id">Dépublier</a>
+                }
+                else
+                {
+                    <a asp-action="Publish" asp-route-id="@item.Id">Publier</a>
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
