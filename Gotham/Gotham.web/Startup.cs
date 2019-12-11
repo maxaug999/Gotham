@@ -30,6 +30,7 @@ namespace Gotham
             services.AddSingleton<IRepository<Capsule>, MockCapsuleRepository>();
             services.AddSingleton<IRepository<Nouvelle>, MockNouvellesRepository>();
             services.AddSingleton<IRepository<Signalement>, MockSignalementsRepository>();
+            services.AddSingleton<IRepository<Alerte>, MockAlertesRepository>();
 
             //services.AddSingleton<IRepository<Alerte>, RepositoryPattern<Alerte>>();
             //services.AddSingleton<IRepository<Nouvelle>, RepositoryPattern<Nouvelle>>();

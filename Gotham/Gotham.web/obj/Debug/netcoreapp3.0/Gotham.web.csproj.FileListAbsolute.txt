@@ -237,3 +237,8 @@ D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Got
 D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.RazorTargetAssemblyInfo.cs
 D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.Views.pdb
 D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Gotham.web.csproj.CopyComplete
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Create.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Details.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Edit.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Index.cshtml.g.cs
+D:\École\Session 5\Analyse\Gotham\Gotham\Gotham.web\obj\Debug\netcoreapp3.0\Razor\Views\Alertes\Publish.cshtml.g.cs
